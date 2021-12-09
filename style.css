@@ -1,0 +1,113 @@
+.logo{     /* */
+    display: flex;
+    padding: 00px;
+}
+.divone{ /* */
+  display: flex;
+}
+.w{ /* */
+    display: flex;
+    margin-left: -56px;
+}
+
+ul  { /* */
+  
+  list-style-type: none;
+  display: inline;
+  display: flex;
+    }
+
+a:hover{ /* */
+  color: aqua;
+  text-decoration: underline;
+} 
+
+
+a   {
+  
+  display: flex;
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+
+  color: black;
+    }
+  .collA{
+    color: blueviolet;
+  }
+    mark{
+      color: blue;
+    }  
+
+li  {
+margin-left: 25px;
+margin: 10px 20px;
+    }
+
+.div1 {
+  display: flex;
+  align-items: center;
+      }
+
+img   {
+  width: 140px;
+      }
+.divkid {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  
+        }
+.divpere {
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+         }
+.rrp {
+color: black;
+opacity: 0.6;
+     }
+.Saving {
+color: green;
+opacity: 0.8;
+
+        }
+.price  {
+text-decoration: underline;
+        }
+.basdupage{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          
+        }
+        @media( max-width : 600px){
+          .divpere {
+          flex-direction: column;
+  
+                 }
+                 .logo{
+                justify-content: center;
+                  padding: 00px;
+
+        }
+        
+        .divone{
+         
+          flex-direction: column;
+        }
+        .divone img{
+          margin: 0 auto;
+        }
+        .w{
+          margin: 0;
+          padding: 0;
+          flex-direction: inherit;
+
+        }
+        .divone ul li{
+          padding: 0;
+        }
+      } 
